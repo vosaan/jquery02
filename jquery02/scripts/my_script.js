@@ -4,7 +4,7 @@ $(document).ready(function(){
 		//$(".guess_box p").remove();
 		
 		var discount = Math.floor((Math.random() * 5) + 5);
-		var discountMessage = "<p>Ваша скидка составляет " + discount + "%</p>";
+		var discountMessage = "<p>Подавись! " + discount + "%</p>";
 		//alert(discountMessage);
 		$(this).append(discountMessage);
 		$(".guess_box").each(function(){
