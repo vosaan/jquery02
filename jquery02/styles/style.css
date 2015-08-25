@@ -20,3 +20,21 @@ div{
 	height: 245px;
 }
 
+.my_hover{
+	border: solid #00f 3px;
+}
+
+.tablo{
+	clear: both;
+	border: none;
+	width: 100%;
+	text-align: center;
+}
+
+.discount{
+	border: 3px solid green;	
+}
+
+.no_discount{
+	border: 3px solid black;	
+}
